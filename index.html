@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MD. Rafiqul Islam Rabbi - Portfolio</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <header>
+        <nav class="navbar">
+            <a href="#hero" class="logo">Rafiqul Rabbi</a>
+            <ul class="nav-links">
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact" class="btn-nav">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ================= HERO ================= -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <h1>MD. Rafiqul Islam Rabbi</h1>
+            <p class="subtitle">Backend Developer | Python Specialist | Cloud Engineer</p>
+            <p class="summary">
+                Over 2+ years of professional experience specializing in Backend Development, API Engineering, and Cloud Solutions. 
+                Strong expertise in building scalable backend systems using Python, Django, FastAPI, and REST APIs, with a solid 
+                understanding of System Design, microservices, and cloud deployment on AWS & GCP.
+            </p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                <a href="https://github.com/Rafiqulislamrabbi" target="_blank" class="btn btn-secondary"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3><i class="fas fa-code"></i> Languages</h3>
+                    <div class="skill-tags">
+                        <span>Python</span><span>JavaScript</span><span>HTML/CSS</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3><i class="fas fa-layer-group"></i> Frameworks</h3>
+                    <div class="skill-tags">
+                        <span>Django</span><span>Django REST</span><span>FastAPI</span><span>Flask</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3><i class="fas fa-database"></i> Databases & Tools</h3>
+                    <div class="skill-tags">
+                        <span>PostgreSQL</span><span>Redis</span><span>SQLAlchemy</span><span>Typesense</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3><i class="fas fa-cloud"></i> Cloud & DevOps</h3>
+                    <div class="skill-tags">
+                        <span>AWS</span><span>GCP</span><span>Docker</span><span>GitHub Actions</span><span>Terraform</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= EXPERIENCE ================= -->
+    <section id="experience" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">Dec 2025 – Present</div>
+                    <div class="timeline-content">
+                        <h3>Junior Developer (Python)</h3>
+                        <p class="company">ATI Limited — Onsite</p>
+                        <ul>
+                            <li>Working on the Navy Budget Management System using FastAPI and PostgreSQL.</li>
+                            <li>Designed scalable database schemas and optimized query performance.</li>
+                            <li>Implemented Redis for caching and performance improvements.</li>
+                            <li>Developed REST APIs for budget workflows, approvals, and reporting modules.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">2023 – 2025</div>
+                    <div class="timeline-content">
+                        <h3>Django Developer & Cloud Engineer</h3>
+                        <p class="company">Fractalslab — Remote, Full-time</p>
+                        <ul>
+                            <li>Developed scalable backend systems using Python and Django.</li>
+                            <li>Automated internal tasks using AWS Lambda and cron jobs.</li>
+                            <li>Built and deployed Flask APIs using Vertex AI on Google Cloud Run.</li>
+                            <li>Implemented CI/CD pipelines using GitHub Actions for AWS ECR and GCP deployments.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Navy Budget Management System</h3>
+                    <p>Government finance management platform. Developed APIs using FastAPI, PostgreSQL, and Redis. Worked on approval workflow, budget circulation, and system architecture.</p>
+                    <div class="project-tags"><span>FastAPI</span><span>PostgreSQL</span><span>Redis</span></div>
+                </div>
+
+                <div class="project-card">
+                    <h3>CV-Doctor</h3>
+                    <p>Resume analyzer and CV generation platform. Built an ML pipeline using TensorFlow and Vertex AI to extract structured data, served via Flask API on Cloud Run.</p>
+                    <div class="project-tags"><span>Flask</span><span>Vertex AI</span><span>Firebase</span></div>
+                    <a href="https://cv-doctor.jobkhuzi.com" target="_blank" class="project-link">View Live <i class="fas fa-external-link-alt"></i></a>
+                </div>
+
+                <div class="project-card">
+                    <h3>Jobkhuzi</h3>
+                    <p>Backend API development and Typesense search integration. Built job posting pipelines, filtering systems, and automated data extraction.</p>
+                    <div class="project-tags"><span>Django</span><span>Typesense</span><span>REST API</span></div>
+                    <a href="https://app.jobkhuzi.com" target="_blank" class="project-link">View Live <i class="fas fa-external-link-alt"></i></a>
+                </div>
+
+                <div class="project-card">
+                    <h3>Bank Statement Parser</h3>
+                    <p>PDF statement parser extracting structured transactions automatically using OCR and hosted on GCP.</p>
+                    <div class="project-tags"><span>Flask</span><span>OCR</span><span>GCP</span></div>
+                    <a href="https://bank-parser-statement.web.app" target="_blank" class="project-link">View Live <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= EDUCATION ================= -->
+    <section id="education" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="edu-card">
+                <h3>B.Sc in Computer Science and Engineering</h3>
+                <p class="institution">Daffodil International University</p>
+                <p class="duration">2019 – 2023</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-grid">
+                <a href="mailto:rafiqulislamrabbi2546@gmail.com" class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>rafiqulislamrabbi2546@gmail.com</p>
+                </a>
+                <a href="https://github.com/Rafiqulislamrabbi" target="_blank" class="contact-card">
+                    <i class="fab fa-github"></i>
+                    <h3>GitHub</h3>
+                    <p>github.com/Rafiqulislamrabbi</p>
+                </a>
+                <a href="https://www.linkedin.com/in/rafiqul-islam-rabbi/" target="_blank" class="contact-card">
+                    <i class="fab fa-linkedin"></i>
+                    <h3>LinkedIn</h3>
+                    <p>linkedin.com/in/Rafiqul Islam Rabbi</p>
+                </a>
+            </div>
+            <p style="text-align: center; margin-top: 30px; color: #64748b;">
+                <i class="fas fa-map-marker-alt"></i> Mirpur, Dhaka-1216 | <i class="fas fa-phone"></i> 01941993616
+            </p>
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+        <div class="container">
+            <p>&copy; MD. Rafiqul Islam Rabbi. Built with clean code and dedication.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
